@@ -9,6 +9,7 @@ def test_add():
     assert add(-1, 1) == 0
     assert add(-5, -5) == -10
 
+
 def test_subtract():
     """Tests the subtract function."""
     assert subtract(10, 5) == 5
